@@ -8,7 +8,7 @@ export default (state,action) => {
             break;
             case 'NEW_TRANSACTION':
             return{
-              transactions: [action.payload,...state.transactions]
+                transactions: [action.payload,...state.transactions]
 
             }
     
