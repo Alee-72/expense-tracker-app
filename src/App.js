@@ -14,9 +14,9 @@ function App() {
     <Globalprovider>
         <Header />
         <Balance />
-        <IncomeExpence />
-        <History />
+        <IncomeExpence />  
         <AddTransaction />
+        <History />
     </Globalprovider>
   )
 }
